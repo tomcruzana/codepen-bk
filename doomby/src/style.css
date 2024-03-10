@@ -1,0 +1,47 @@
+body {
+  font-family: "Press Start 2P", system-ui;
+  box-sizing: border-box;
+  margin: 0;
+  cursor: url(https://media.moddb.com/images/mods/1/21/20122/crosshairs.png) 64 64, auto;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  color: #fff;
+  background-color: #000;
+}
+
+.container{
+  padding: 2em;
+}
+
+.target-range {
+  height: 600px;
+  width: 600px;
+  margin: 0 auto;
+}
+
+h2{
+  color: orange;
+}
+
+.shots {
+  color: red;
+}
+
+.player {
+  background: url(https://i.imgur.com/dc5O4Mc.png);
+  position: absolute;
+  bottom: 0;
+  width: 255px;
+  height: 231px;
+  transition: transform 0.8s ease-in-out, bottom 0.8s ease-in-out;
+  z-index: 999;
+}
+
+.enemy {
+  width: 100px; 
+  height: 100px; 
+  background-size: cover; 
+}
+
